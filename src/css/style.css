@@ -59,7 +59,7 @@ main {
 
 .selecao-de-personagem .personagem-grande .nome::before {
     content: '';
-    height: 15px;
+    height: 30px;
     width: 100%;
     position: absolute;
     bottom: -15px;
@@ -71,7 +71,7 @@ main {
     color: var(--cor-padrao);
     font-family: 'command', sans-serif;
     position: absolute;
-    bottom: -15px;
+    bottom: 0px;
     width: 100%;
     font-size: 27px;
 }
