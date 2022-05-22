@@ -137,3 +137,28 @@ main {
     animation: c-glowing-red .3s ease-in-out infinite;
     animation-direction: alternate;
 }
+
+.selecao-de-personagem .lista-de-personagens .personagem .tag {
+    display: none;
+    font-family: 'times new roman', times, serif;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: var(--cor-azul-media);
+    transition: opacity .3 ease-in-out;
+    animation: alternate;
+    animation: text-glowing-blue .3s ease-in-out infinite;
+    animation-direction: alternate;
+}
+
+.selecao-de-personagem .lista-de-personagens .personagem.selecionado .tag{
+    display: block;
+    animation: text-glowing-blue .3s ease-in-out infinite;
+    animation-direction: alternate;
+}
+
+.selecao-de-personagem .lista-de-personagens .personagem.jogador-2-selecionado .tag{
+    display: block;
+    animation: text-glowing-red .3s ease-in-out infinite;
+    animation-direction: alternate;
+}
