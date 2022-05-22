@@ -9,4 +9,9 @@ OBJETIVO 2 - quando passar o mouse em cima do personagem, trocar a imagem e nome
 
 - aletrar a imagem do personagem jogador 1
 - alterar o nome do porsonagem selecionado jogador 1
+
+https://www.youtube.com/watch?v=8g-9zSafztw&t=6719s
  */
+
+
+const homemDeFerro = 
